@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+      <meta charset="utf-8">
+
+    <title>المقرر</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+            <li><a href="{{ url_for('services') }}">Services</a></li>
+            <li><a href="{{ url_for('contact') }}">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>المقرر يحوي</h1>
+        <ul>
+            <li>أساسيات البايثون</li>
+            <li>مفهوم السوكيت وتطبيقاته</li>
+            <li>برمجة الويب</li>
+        </ul>
+    </main>
+</body>
+</html>
